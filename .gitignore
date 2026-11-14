@@ -1,0 +1,17 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build outputs
+dist
+dist-ssr
+
+# Vercel
+.vercel
+
+# Logs & local files
+*.log
+.DS_Store
+*.local
+.env
+.env.*

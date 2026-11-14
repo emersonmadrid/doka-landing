@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="woodGradient" cx="45%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#EED7B8" />
+      <stop offset="50%" stop-color="#C79A77" />
+      <stop offset="100%" stop-color="#944E16" />
+    </radialGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B87848" />
+      <stop offset="100%" stop-color="#6E3E23" />
+    </linearGradient>
+  </defs>
+  <!-- Circle base -->
+  <circle cx="50" cy="50" r="42" fill="url(#woodGradient)" stroke="#864D29" stroke-width="4" />
+  
+  <!-- Stylized wood grain rings -->
+  <path d="M 30,52 C 30,40 40,32 50,32 C 60,32 70,40 70,52 C 70,64 60,72 50,72 C 40,72 30,64 30,52" fill="none" stroke="#753C12" stroke-width="2.5" stroke-linecap="round" opacity="0.65" />
+  <path d="M 36,52 C 36,44 42,38 50,38 C 58,38 64,44 64,52 C 64,60 58,66 50,66 C 42,66 36,60 36,52" fill="none" stroke="#5A2E0E" stroke-width="2.5" stroke-linecap="round" opacity="0.75" />
+  <path d="M 43,51 C 43,47 46,44 50,44 C 54,44 57,47 57,51 C 57,55 54,58 50,58 C 46,58 43,55 43,51" fill="none" stroke="#462208" stroke-width="2.5" stroke-linecap="round" opacity="0.85" />
+  
+  <!-- Leaf sprout at top right -->
+  <path d="M 78,24 C 84,14 96,16 94,28 C 92,36 82,34 78,24 Z" fill="url(#leafGrad)" stroke="#5A331E" stroke-width="1.5" />
+</svg>
